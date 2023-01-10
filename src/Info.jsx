@@ -1,9 +1,10 @@
 import React from "react"
+import imgsrc from "/assets/picture.jpg"
 
 export default function Info() {
     return (
         <>
-            <img className="image" src="/assets/picture.jpg" />
+            <img className="image" src={imgsrc} />
             <div className="info">
                 <h1 className="name">Tanveer Ali Tapya</h1>
                 <h2 className="job">Frontend Developer</h2>
