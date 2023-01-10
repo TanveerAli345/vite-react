@@ -1,0 +1,154 @@
+#root {
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+}
+
+.card-main {
+  background-color: #1A1B21;
+  width: 260px;
+  height: 560px;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.image {
+  width: 100%;
+  margin-top: -35px;
+}
+
+.info {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 18px;
+  margin: 0;
+  margin-top: -5px;
+}
+
+.job {
+  font-size: 10px;
+  color: #F3BF99;
+  margin: 0;
+  font-weight: 400;
+}
+
+.email {
+  font-size: 8px;
+  margin-top: -5px;
+  color: #fff;
+}
+
+.email-btn-a {
+  color: black;
+}
+
+.email-btn-a:hover {
+  color: black;
+}
+
+.linkedin-btn-a {
+  color: #fff;
+}
+
+.linkedin-btn-a:hover {
+  color: #fff;
+}
+
+
+
+.email:hover {
+  color: #bbb;
+}
+
+.container-text {
+  width: 100%;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.section-text {
+  font-size: 8px;
+  line-height: 1.5;
+  max-width: 200px;
+  text-align: left;
+  margin: auto;
+  margin-top: 2px;
+  letter-spacing: 0.1px;
+}
+
+
+.footer {
+  background-color: #161619;
+  height: 50px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.footer > a {
+  color: #918E9B;
+}
+
+.linkedin:hover {
+  color: #0A66C2;
+}
+
+.github:hover {
+  color: #6e5494;
+}
+
+.behance:hover {
+  color: #053eff;
+}
+
+.btn-container {
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 5px;
+}
+
+.btn {
+  width: 84px;
+  height: 32px;
+  padding: 0;
+}
+
+.email-btn {
+  background-color: #fff;
+  color: black;
+}
+
+.linkedin-btn {
+  background-color: #0A66C2;
+}
+
+.btn > i {
+  margin-right: 6px;
+}
