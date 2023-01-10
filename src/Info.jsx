@@ -1,5 +1,5 @@
 import React from "react"
-import imgsrc from "/assets/picture.jpg"
+import imgsrc from "./assets/picture.jpg"
 
 export default function Info() {
     return (
